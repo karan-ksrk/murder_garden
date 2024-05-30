@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [-d "venv"]
+if [-d "venv"];
 then
     echo "Virtual environment already exists"
 else
@@ -13,7 +13,7 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 
 
-if [-d "logs"]
+if [-d "logs"];
 then
     echo "Log folder exists"
 else
